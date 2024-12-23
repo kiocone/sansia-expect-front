@@ -1,0 +1,100 @@
+// sidebar.component.scss
+
+@use '../../styles/variables' as *;
+
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+mat-toolbar {
+  flex-shrink: 0;
+  background-color: inherit;
+  color: inherit;
+  min-height: 64px; /* Adjust as needed */
+
+  .logo {
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  button[mat-icon-button] {
+    color: inherit;
+    background-color: transparent;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    mat-icon {
+      color: $icon-color !important;
+      fill: $icon-color !important;
+    }
+  }
+}
+
+.menu-icon {
+  color: #fff !important;
+}
+
+mat-nav-list {
+  flex: 1;
+  overflow: auto;
+  background-color: inherit;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .main-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .configuration-menu-list {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+
+  a.mdc-list-item {
+    text-decoration: none;
+    div.sidebar-item.mat-list-item {
+      display: flex;
+      gap: 10px;
+
+      mat-icon {
+        color: $icon-color !important;
+        fill: $icon-color !important;
+      }
+
+      span {
+        font-weight: 200;
+        color: $icon-color;
+      }
+    }
+  }
+
+  h3[mat-subheader] {
+    color: inherit;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+
+  mat-divider {
+    background-color: rgba(70, 70, 70, 0.2);
+    margin: 8px 0;
+  }
+}
+
+

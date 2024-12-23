@@ -1,0 +1,94 @@
+// toolbar.component.scss
+
+@use "../../styles/variables" as *;
+
+.menu-button{
+  color: #333;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;}
+
+.menu-icon {
+  color: #3a3a3a;
+  width: 26px !important;
+  font-size: 24px !important;
+  position: relative;
+  margin-right: 0px;
+}
+
+
+.toolbar-button:hover {
+  cursor: pointer;
+  background-color: rgba(166, 166, 166, 0.12);
+  border-radius: 4px;
+}
+
+.account-button {
+  // color: $text-color;
+  color: #333;
+  display: flex;
+  flex-grow: revert;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  margin: 0 2px;
+
+  .account-name {
+    font-size: 14px;
+    margin-right: 3px;
+  }
+
+  mat-icon {
+    color: #3a3a3a;
+    font-size: 32x;
+
+    &.account-icon {
+      margin-right: 10px;
+      margin-left: 3px;
+    }
+  }
+}
+
+mat-toolbar {
+  background-color: #fff;
+  padding: 10px 22px 8px 22px;
+  box-shadow: 0 2px 44px #00000029;
+
+  .logo-version-container {
+    display: flex;
+    align-items: flex-end;
+
+    .logo {
+      height: 30px;
+      margin-left: 15px;
+    }
+
+    .app-version {
+      position: relative;
+      top: 6px;
+      margin-left: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      color: $primary-color;
+    }
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .account-name {
+      display: none;
+    }
+
+    button mat-icon.account-icon {
+      margin-left: 0;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<!-- sidebar.component.html -->
+
+<mat-toolbar>
+  <img src="../../../../assets/logo.png" alt="Logo" class="logo" />
+  <span class="spacer"></span>
+  <button mat-icon-button (click)="onCloseSidebar()" aria-label="Close sidebar">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-toolbar>
+
+<mat-nav-list>
+  <div class="main-menu-list">
+    @for (item of config.menuItems; track item.label) {
+    <mat-divider></mat-divider>
+    <a
+      mat-list-item
+      [routerLink]="item.route"
+      (click)="onCloseSidebar()"
+      [attr.aria-label]="item.ariaLabel"
+    >
+      <div class="sidebar-item mat-list-item">
+        <mat-icon class="menu-icon" matListIcon>{{ item.icon }}</mat-icon>
+        <span>{{ item.label }}</span>
+      </div>
+    </a>
+    }
+  </div>
+  <div class="configuration-menu-list">
+    <h3 mat-subheader>Configuración</h3>
+    <div class="configuration-menu-list__content">
+      @for (item of config.configurationItems; track item.label) {
+      <mat-divider></mat-divider>
+      <a
+        mat-list-item
+        [routerLink]="item.route"
+        (click)="onCloseSidebar()"
+        [attr.aria-label]="item.ariaLabel"
+      >
+        <div class="sidebar-item mat-list-item">
+          <mat-icon class="menu-icon" matListIcon>{{ item.icon }}</mat-icon>
+          <span>{{ item.label }}</span>
+        </div>
+      </a>
+      }
+    </div>
+  </div>
+</mat-nav-list>
