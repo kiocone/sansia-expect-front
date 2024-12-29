@@ -5,6 +5,8 @@ import { SidebarComponent } from './shared/components/sidebar/sidebar.component'
 import { SidebarService } from './shared/components/sidebar/services/sidebar.service';
 import { ToolbarComponent } from './shared/components/toolbar/toolbar.component';
 import { Subscription } from 'rxjs';
+import { MatButtonModule } from '@angular/material/button';
+import { SaniaTarjetaComponent } from './shared/components/terjeta/tarjeta-component';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +15,8 @@ import { Subscription } from 'rxjs';
     RouterOutlet,
     MatSidenavModule,
     SidebarComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    MatButtonModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

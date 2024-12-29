@@ -2,6 +2,7 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @use '@angular/material' as mat;
+@use './app/shared/styles/variables' as vars;
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -12,11 +13,11 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$sansia-expect-front-primary: mat.define-palette(mat.$indigo-palette);
-$sansia-expect-front-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$sansia-expect-front-primary: mat.define-palette(mat.$amber-palette);
+$sansia-expect-front-accent: mat.define-palette(mat.$deep-orange-palette, 300, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
-$sansia-expect-front-warn: mat.define-palette(mat.$red-palette);
+$sansia-expect-front-warn: mat.define-palette(mat.$red-palette, 400);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
