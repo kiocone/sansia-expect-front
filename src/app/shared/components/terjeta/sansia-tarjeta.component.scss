@@ -1,0 +1,41 @@
+// define a @media with a max-width equal or greater than 1920
+@media only screen and (max-width: 2040px) {
+  mat-card {
+    width: 500px;
+  }
+}
+
+
+@media only screen and (max-width: 1919px) {
+  mat-card {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  mat-card {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  mat-card {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  mat-card {
+    width: 100%;
+  }
+}
+
+mat-card {
+  padding: 0 15px;
+  margin: 0 0 30px;
+  background-color: #f7eee0;
+}
+
+mat-card-header {
+  margin: 0 0 10px;
+}
