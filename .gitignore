@@ -43,3 +43,12 @@ Thumbs.db
 
 #assets files
 /src/assets
+
+#firebase
+.firebase
+
+#github
+.github
+
+#public static
+.public

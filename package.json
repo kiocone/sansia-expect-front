@@ -1,6 +1,6 @@
 {
   "name": "sansia-expect-front",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "dev": "ng cache clean; ng serve --host 0.0.0.0",
