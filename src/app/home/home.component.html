@@ -1,3 +1,7 @@
 <div class="container">
-  <sansia-tarjeta></sansia-tarjeta>
+  @for ( tarjeta of tarjetaData; track tarjeta ) {
+    <sansia-tarjeta
+      [tarjetaData]="tarjeta"
+    ></sansia-tarjeta>
+  }
 </div>
