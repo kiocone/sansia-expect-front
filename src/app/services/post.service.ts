@@ -1,19 +1,31 @@
 import { Injectable } from "@angular/core";
+import { ITarjeta } from "../shared/components/terjeta/type/tarjeta-content.interface";
 
 @Injectable({providedIn: 'root'})
 export class PostServices {
 
   posts = [
     {
-      title: "Playa Tranquila Barú",
+      id: 0,
+      title: "Playa Tranquila",
       subtitle: "Barú",
-      description: "Aguas cristalinas con la mejor vibra.",
+      description: "Salidas diarias desde las 7:00 am\nGuia orientador\nRecogida en hoteles zonas turisticas\nBoca grande, laguito y sona norte.\n\nTransporte terrestre en bus climatizado hasta playa blanca barú \/\nLancha hasta el sector de playa tranquila.\nUso de las instalaciones, baños restaurante, cama, sillas y asoleadoras.\nAlmuerzo:\n3 opciones\nPescado, pollo y vegetariano.\nRetorno\nA cartagena\n3:30 P.M.",
       longDescription: "...",
-      background_image: "https://metatravelcartagena.com/wp-content/uploads/2024/03/isla-baru-playaa-tranquila-410x250.jpg",
+      background_image: "../../assets/images/playa-tranquila.jpeg",
       button_text: "Ver detalles",
-      enabled: true
+      enabled: true,
+      images: [
+        "../../assets/images/pt-01.jpeg",
+        "../../assets/images/pt-02.jpeg",
+        "../../assets/images/pt-03.jpeg",
+        "../../assets/images/pt-04.jpeg",
+        "../../assets/images/pt-05.jpeg",
+        "../../assets/images/pt-06.jpeg",
+        "../../assets/images/pt-07.jpeg"
+      ]
     },
     {
+      id: 1,
       title: "Playa Azul",
       subtitle: "Boquilla",
       description: "En la zona centrica de la ciudad a 5 minutos del aeroperto.",
@@ -23,6 +35,7 @@ export class PostServices {
       enabled: true
     },
     {
+      id: 2,
       title: "Playa Tranquila Barú",
       subtitle: "Barú",
       description: "Aguas cristalinas con la mejor vibra.",
@@ -32,6 +45,7 @@ export class PostServices {
       enabled: true
     },
     {
+      id: 3,
       title: "Playa Tranquila Barú",
       subtitle: "Barú",
       description: "Aguas cristalinas con la mejor vibra.",
@@ -41,7 +55,11 @@ export class PostServices {
       enabled: true
     },
   ]
-  getPosts() {
+  getPosts(): ITarjeta[] {
     return this.posts
+  }
+
+  getPostById(id: number): ITarjeta {
+    return this.posts[id]
   }
 }

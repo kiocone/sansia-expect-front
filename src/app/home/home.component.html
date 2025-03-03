@@ -2,6 +2,7 @@
   @for ( tarjeta of tarjetaData; track tarjeta ) {
     <sansia-tarjeta
       [tarjetaData]="tarjeta"
+      (cardClicked)="onAction($event)"
     ></sansia-tarjeta>
   }
 </div>

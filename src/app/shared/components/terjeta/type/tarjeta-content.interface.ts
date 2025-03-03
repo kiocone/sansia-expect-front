@@ -8,4 +8,5 @@ export interface ITarjeta {
   button_text?: string;
   button_link?: string;
   enabled: boolean;
+  images?: string[];
 }
