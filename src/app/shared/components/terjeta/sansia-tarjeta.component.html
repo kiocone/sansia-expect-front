@@ -13,8 +13,16 @@
         {{tarjetaData.description}}
       </p>
     </mat-card-content>
-    <mat-card-actions>
-      <button mat-flat-button color="primary">{{tarjetaData.button_text}}</button>
-    </mat-card-actions>
+    @if (tarjetaData.button_text) {
+      <mat-card-actions>
+        <button
+          mat-flat-button
+          color="primary"
+          (click)="onClick(tarjetaData.id)"
+        >
+          {{tarjetaData.button_text}}
+        </button>
+      </mat-card-actions>
+    }
   </mat-card>
 }
