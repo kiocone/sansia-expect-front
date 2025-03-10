@@ -9,9 +9,7 @@
       src="{{tarjetaData.background_image}}"
       alt="{{tarjetaData.subtitle}}">
     <mat-card-content>
-      <p>
-        {{tarjetaData.description}}
-      </p>
+      <div class="text-desc" [innerHTML]="tarjetaData.description"></div>
     </mat-card-content>
     @if (tarjetaData.button_text) {
       <mat-card-actions>
