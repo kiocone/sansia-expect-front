@@ -1,18 +1,20 @@
-@if (post) {
-	<h2 class="mt-4">{{post.title}}</h2>
-	<div [innerHTML]="post.description" class="text-muted text-desc"></div>
-	@for (image of post.images; track image) {
-	<div
-		mdbRipple
-		rippleColor="light"
-		class="bg-image hover-overlay ripple shadow-1-strong rounded"
-	>
-		<img
-		src="{{image}}"
-		class="ancho"
-		/>
-	</div>
-  }
-} @else {
-  <h2>Post not found</h2>
-}
+<div class="detail-container">
+	@if (post) {
+		<h2 class="mt-4">{{post.title}}</h2>
+		<div [innerHTML]="post.description" class="text-muted text-desc"></div>
+		@for (image of post.images; track image) {
+		<div
+			mdbRipple
+			rippleColor="light"
+			class="bg-image hover-overlay ripple shadow-1-strong rounded"
+		>
+			<img
+				src="{{image}}"
+				class="ancho"
+			/>
+		</div>
+		}
+	} @else {
+		<h2>Post not found</h2>
+	}	
+</div>

@@ -50,7 +50,7 @@ export class PostServices {
       ]
     },
     {
-      id: 1,
+      id: 2,
       title: "Playa Tranquila",
       subtitle: "Barú",
       description: "Salidas diarias desde las 7:00 am<br>Guia orientador<br>Recogida en hoteles zonas turisticas<br>Boca grande, laguito y sona norte.<br><br>Transporte terrestre en bus climatizado hasta playa blanca barú \/<br>Lancha hasta el sector de playa tranquila.<br>Uso de las instalaciones, baños restaurante, cama, sillas y asoleadoras.<br>Almuerzo:<br>3 opciones<br>Pescado, pollo y vegetariano.<br>Retorno<br>A cartagena<br>3:30 P.M.",
@@ -66,6 +66,25 @@ export class PostServices {
         "../../assets/images/pt-05.jpeg",
         "../../assets/images/pt-06.jpeg",
         "../../assets/images/pt-07.jpeg"
+      ]
+    },
+    {
+      id: 3,
+      title: "TOUR PARQUE TAYRONA",
+      subtitle: "SECTOR CABO SAN JUAN",
+      description: "Salidas Martes y Viernes<br>📍Recogida 04:00 Am<br>📍Finalización 09:30 Pm<br><br><strong>RECOGIDA</strong><br>🚌 Traslado de recogida (Boca Grande, Laguito, Centro Histórico, Getsemani y Zona Norte).  No incluye sector de Manzanillo.<br><br><strong>RECORRIDO</strong><br>🚌 Pasando por Barranquilla y Santa Marta, llegamos al Parque Tayrona.<br><br>🔖 Entradas al Parque Tayrona<br><br>👨‍👩‍👧‍👦 Charla educativa sobre la conservación del medio ambiente, en el Parque.<br><br><strong>CAMINATA</strong><br>🚶‍♂️🚶‍♀️ durante 2 horas por senderos boscosos, húmedos y tropicales (opción caballo no incluida).<br><br><strong>HIDRATACION</strong><br>🍶Una (1) botella de agua.<br><br><strong>PLAYAS</strong><br>🏝 Pasaremos por las playas de Arrecifes, Arenilla y La piscinita, hasta llegar a CABO SAN JUAN DEL GUIA.<br><br><strong>CABO SAN JUAN DEL GUIA</strong><br> 🏊‍♀️🥘  Disfrute de hermosas playas. En arenilla disfrutamos del almuerzo típico: pescado, patacón, arroz de coco y ensalada (opción  pollo, carne a la plancha y  vegetariano).<br> <br><strong>RETORNO</strong><br>🗺 Retornamos a Cartagena hasta sus hoteles,  aproximadamente 9:30 pm.<br><br>👨‍💼Guía acompañada",
+      longDescription: "...",
+      background_image: "../../assets/images/tay-01.jpeg",
+      button_text: "Ver detalles",
+      enabled: true,
+      images: [
+        "../../assets/images/tay-01.jpeg",
+        "../../assets/images/tay-02.jpeg",
+        "../../assets/images/tay-03.jpeg",
+        "../../assets/images/tay-04.jpeg",
+        "../../assets/images/tay-05.jpeg",
+        "../../assets/images/tay-06.jpeg",
+        "../../assets/images/tay-07.jpeg"
       ]
     }
   ]

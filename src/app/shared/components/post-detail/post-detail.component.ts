@@ -24,7 +24,6 @@ export class PostDetailComponent implements OnInit {
     if (this.route.snapshot.paramMap.has('id')) {
       this.route.params.subscribe(params => {
         this.post = this.postService.getPostById(params['id']);
-        console.log(this.post);
       });
     }
   }

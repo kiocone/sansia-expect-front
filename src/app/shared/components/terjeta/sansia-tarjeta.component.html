@@ -5,11 +5,12 @@
       <mat-card-subtitle>{{tarjetaData.subtitle}}</mat-card-subtitle>
     </mat-card-header>
     <img
+      class="tarj-img"
       mat-card-image
       src="{{tarjetaData.background_image}}"
       alt="{{tarjetaData.subtitle}}">
     <mat-card-content>
-      <div class="text-desc" [innerHTML]="tarjetaData.description"></div>
+      <div class="text-desc" [innerHTML]="truncateText(tarjetaData.description)"></div>
     </mat-card-content>
     @if (tarjetaData.button_text) {
       <mat-card-actions>
