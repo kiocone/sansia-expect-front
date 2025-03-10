@@ -15,11 +15,18 @@ import { ITarjeta } from "./type/tarjeta-content.interface";
 })
 export class SaniaTarjetaComponent {
 
+  maxChars: number = 300;
+
   @Input() tarjetaData!: ITarjeta;
 
   @Output() cardClicked = new EventEmitter();
 
 
   onClick(id: number | undefined) {
-    this.cardClicked.emit(id);  }
+    this.cardClicked.emit(id);
+  }
+  
+  truncateText(text: string): string {
+    return text.length > this.maxChars ? text.substring(0, this.maxChars) + "..." : text;
+  }
 }
