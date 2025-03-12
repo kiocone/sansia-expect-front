@@ -92,6 +92,46 @@ export class PostServices {
         "../../assets/images/tay-13.jpeg",
         "../../assets/images/tay-14.jpeg"   
       ]
+    },
+    {
+      id: 4,
+      title: "TOUR PARQUE TAYRONA",
+      subtitle: "SECTOR PLAYA CRISTAL",
+      description: "📍Recogida 04:00 Am<br>📍Finalización 09:30 Pm<br><br><strong>RECOGIDA</strong><br>🚌 Traslado de recogida (Boca Grande, Laguito, Centro Histórico, Getsemani y Zona Norte).  No incluye sector de Manzanillo.<br><br><strong>RECORRIDO</strong><br>🚌 Pasando por Barranquilla y Santa Marta, llegamos al Parque Tayrona.<br><br>🔖 Entradas al Parque Tayrona<br><br>👨‍👩‍👧‍👦 Charla educativa sobre la conservación del medio ambiente, en el Parque.<br><br>🌊 MIRADOR PLAYA SIETE OLAS: Desembarcamos para disfrutar la hermosa vista (solo fotos).<br><br>🚣‍♀️ PLAYA NEGUANJE: Desembarcamos como lugar de tránsito, donde tomaremos una lancha por 10 minutos hacia PLAYA CRISTAL.<br><br>🏖️🏝️🍲 PLAYA CRISTAL: Disfrute de hermosas playas paradisíacas sin ningún tipo de contaminación. Almuerzo típico: pescado, patacón, arroz de coco y ensalada (opción  pollo, carne a la plancha y  vegetariano).<br><br><strong>RETORNO</strong><br>🗺 Retornamos a Cartagena hasta sus hoteles, aproximadamente 9:30 pm.<br><br>👨‍💼Guía acompañante durante todo el paseo.",
+      longDescription: "...",
+      background_image: "../../assets/images/tpc-04.jpeg",
+      button_text: "Ver detalles",
+      enabled: true,
+      images: [
+        "../../assets/images/tpc-01.jpeg",
+        "../../assets/images/tpc-02.jpeg",
+        "../../assets/images/tpc-03.jpeg",
+        "../../assets/images/tpc-04.jpeg",
+        "../../assets/images/tpc-05.jpeg"
+      ]
+    },
+    {
+      id: 5,
+      title: "SANTA MARTA VIP",
+      description: "📍Recogida 03:30:00 Am<br>📍Finalización 09:00 Pm<br><br><strong>Incluye</strong><br>🚌Recogida en la puerta de los hoteles (Boca Grande, Laguito, Centro Histórico, Getsemaní y Zona Norte).<br><br>🚌Paseo panorámico por la ciudad de Barranquilla.<br>paradas en Barranquilla:<br>🚤Caimán del Río: hermoso corredor vial a orilla del río Magdalena.<br>🏢Ventana al Mundo: monumento más alto de Latinoamérica.<br><br>🥪🧋Desayuno frio abordo (sándwich doble queso, doble jamón, cajita de jugo y fruta)<br><br>🌊🏝🏊‍♀️⛵Visita al sector del Rodadero, desde donde tomamos una lancha hacia Playa Blanca de Santa Marta. Disfruté de playa y deportes náuticos (no incluí dos).<br><br>🥘🍴🍤Almuerzo típico con pescado, patacón, arroz de coco y ensalada, con opción  de pollo o carne a la plancha, en Playa Blanca.<br><br>🏦 Retorno a la ciudad  de Santa Marta:<br><br>🤹‍♂️visita Quinta San Pedro Alejandrino (incluye entrada).<br>🤹‍♂️Visita a la estatua del Pibe Valderrama.<br>🛥️💒Paseo por la Bahía, la Marina, Parque de los novios, la Catedral, Plaza Bolíva<br>",
+      longDescription: "...",
+      background_image: "../../assets/images/smv-01.jpeg",
+      button_text: "Ver detalles",
+      enabled: true,
+      images: [
+        "../../assets/images/smv-01.jpeg",
+        "../../assets/images/smv-02.jpeg",
+        "../../assets/images/smv-03.jpeg",
+        "../../assets/images/smv-04.jpeg",
+        "../../assets/images/smv-05.jpeg",
+        "../../assets/images/smv-06.jpeg",
+        "../../assets/images/smv-07.jpeg",
+        "../../assets/images/smv-08.jpeg",
+        "../../assets/images/smv-09.jpeg",
+        "../../assets/images/smv-10.jpeg",
+        "../../assets/images/smv-11.jpeg",
+        "../../assets/images/smv-12.jpeg"
+      ]
     }
   ]
   getPosts(): ITarjeta[] {
