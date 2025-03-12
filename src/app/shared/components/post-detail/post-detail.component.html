@@ -1,7 +1,6 @@
 <div class="detail-container">
 	@if (post) {
 		<h2 class="mt-4">{{post.title}}</h2>
-		<div [innerHTML]="post.description" class="text-muted text-desc"></div>
 		@for (image of post.images; track image) {
 		<div
 			mdbRipple
@@ -14,6 +13,7 @@
 			/>
 		</div>
 		}
+		<div [innerHTML]="post.description" class="text-muted text-desc"></div>
 	} @else {
 		<h2>Post not found</h2>
 	}	
