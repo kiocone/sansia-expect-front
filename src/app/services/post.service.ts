@@ -84,7 +84,14 @@ export class PostServices {
         "../../assets/images/tay-04.jpeg",
         "../../assets/images/tay-05.jpeg",
         "../../assets/images/tay-06.jpeg",
-        "../../assets/images/tay-07.jpeg"
+        "../../assets/images/tay-07.jpeg",
+        "../../assets/images/tay-08.jpeg",
+        "../../assets/images/tay-09.jpeg",
+        "../../assets/images/tay-10.jpeg",
+        "../../assets/images/tay-11.jpeg",
+        "../../assets/images/tay-12.jpeg",
+        "../../assets/images/tay-13.jpeg",
+        "../../assets/images/tay-14.jpeg"   
       ]
     }
   ]
