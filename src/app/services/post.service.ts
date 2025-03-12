@@ -26,8 +26,7 @@ export class PostServices {
         "../../assets/images/mag-09.jpeg",
         "../../assets/images/mag-10.jpeg",
         "../../assets/images/mag-11.jpeg",
-        "../../assets/images/mag-12.jpeg",
-        "../../assets/images/mag-13.jpeg"
+        "../../assets/images/mag-12.jpeg"
       ]
     },
     {
