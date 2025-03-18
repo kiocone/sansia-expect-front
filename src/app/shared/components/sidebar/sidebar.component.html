@@ -17,6 +17,7 @@
       [routerLink]="item.route"
       (click)="onCloseSidebar()"
       [attr.aria-label]="item.ariaLabel"
+      [disabled]="item.disabled"
     >
       <div class="sidebar-item mat-list-item">
         <mat-icon class="menu-icon" matListIcon>{{ item.icon }}</mat-icon>

@@ -25,6 +25,7 @@ export class ConfigService {
       route: '/path2',
       ariaLabel: 'Planes Anuales',
       sideNavOnly: false,
+      disabled: false,
     },
     {
       order: 3,

@@ -112,7 +112,8 @@ export class PostServices {
     },
     {
       id: 5,
-      title: "SANTA MARTA VIP",
+      title: "SANTA MARTA",
+      subtitle: "BARRANQUILLA VIP",
       description: "📍Recogida 03:30:00 Am<br>📍Finalización 09:00 Pm<br><br><strong>Incluye</strong><br>🚌Recogida en la puerta de los hoteles (Boca Grande, Laguito, Centro Histórico, Getsemaní y Zona Norte).<br><br>🚌Paseo panorámico por la ciudad de Barranquilla.<br>paradas en Barranquilla:<br>🚤Caimán del Río: hermoso corredor vial a orilla del río Magdalena.<br>🏢Ventana al Mundo: monumento más alto de Latinoamérica.<br><br>🥪🧋Desayuno frio abordo (sándwich doble queso, doble jamón, cajita de jugo y fruta)<br><br>🌊🏝🏊‍♀️⛵Visita al sector del Rodadero, desde donde tomamos una lancha hacia Playa Blanca de Santa Marta. Disfruté de playa y deportes náuticos (no incluí dos).<br><br>🥘🍴🍤Almuerzo típico con pescado, patacón, arroz de coco y ensalada, con opción  de pollo o carne a la plancha, en Playa Blanca.<br><br>🏦 Retorno a la ciudad  de Santa Marta:<br><br>🤹‍♂️visita Quinta San Pedro Alejandrino (incluye entrada).<br>🤹‍♂️Visita a la estatua del Pibe Valderrama.<br>🛥️💒Paseo por la Bahía, la Marina, Parque de los novios, la Catedral, Plaza Bolíva<br>",
       longDescription: "...",
       background_image: "../../assets/images/smv-01.jpeg",
@@ -131,6 +132,22 @@ export class PostServices {
         "../../assets/images/smv-10.jpeg",
         "../../assets/images/smv-11.jpeg",
         "../../assets/images/smv-12.jpeg"
+      ]
+    },
+    {
+      id: 6,
+      title: "PALMARITO BEACH",
+      subtitle: "TIERRA BOMBA",
+      description: "Punto de salida: muelle detrás del hospital de bocagrande<br><br>Horarios de Inició: 09:00 am, 10:00 am, 11:00 am<br><br>A solo 10 minutos del Beach club.<br><br>- INCLUYE IMPUESTO DEL MUELLE!!<br><br>- Almuerzo tipo bufet, 🧆🥩🥙🥪🥘<br><br>- Transporte en lancha ( tipo pesquera )<br><br>- Uso de Kayaks y Padboard.<br><br>- Zona con Hamacas incluidas.<br><br>- Coctel de Bienvenida<br><br>- Piscina VIP.<br><br>Horario de retorno: 12:00 pm 03:00 pm 04:00 pm",
+      longDescription: "...",
+      background_image: "../../assets/images/pal-01.jpeg",
+      button_text: "Ver detalles",
+      enabled: true,
+      images: [
+        "../../assets/images/pal-01.jpeg",
+        "../../assets/images/pal-02.jpeg",
+        "../../assets/images/pal-03.jpeg",
+        "../../assets/images/pal-04.jpeg"
       ]
     }
   ]
