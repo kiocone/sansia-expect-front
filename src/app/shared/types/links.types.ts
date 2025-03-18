@@ -8,4 +8,5 @@ export interface LinkItem {
   ariaLabel?: string; // Optional ARIA label for accessibility
   sideNavOnly: boolean; // Indicates if the link is for the sidebar only
   isConfigItem?: boolean; // Indicates if the link is a configuration item
+  disabled?: boolean; // Indicates if the link is disabled
 }
