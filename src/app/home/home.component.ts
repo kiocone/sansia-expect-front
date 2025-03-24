@@ -3,6 +3,7 @@ import { SaniaTarjetaComponent } from "../shared/components/terjeta/tarjeta-comp
 import { ITarjeta } from "../shared/components/terjeta/type/tarjeta-content.interface";
 import { PostServices } from "../services/post.service";
 import { Router } from "@angular/router";
+import { YoutubeVideoComponent } from "../shared/components/video/video-section.component";
 
 @Component({
   standalone: true,
@@ -10,7 +11,8 @@ import { Router } from "@angular/router";
   templateUrl: "home.component.html",
   styleUrls: ["home.component.scss"],
   imports: [
-    SaniaTarjetaComponent
+    SaniaTarjetaComponent,
+    YoutubeVideoComponent
   ],
 })
 export class HomeComponent {

@@ -145,6 +145,8 @@ export class PostServices {
       background_image: "../../assets/images/pal-01.jpeg",
       button_text: "Ver detalles",
       enabled: true,
+      videoId: "Ns2NxC7w-kY",
+      isShort: "true",
       images: [
         "../../assets/images/pal-01.jpeg",
         "../../assets/images/pal-02.jpeg",

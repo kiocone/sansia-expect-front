@@ -2,13 +2,16 @@ import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { PostServices } from "../../../services/post.service";
 import { ITarjeta } from "../terjeta/type/tarjeta-content.interface";
+import { YoutubeVideoComponent } from "../video/video-section.component";
 
 @Component({
   standalone: true,
   selector: "post-detail",
   templateUrl: "post-detail.component.html",
   styleUrls: ["post-detail.component.scss"],
-  imports:[]
+  imports:[
+    YoutubeVideoComponent
+  ]
 })
 export class PostDetailComponent implements OnInit {
 

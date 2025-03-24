@@ -1,6 +1,14 @@
 <div class="detail-container">
 	@if (post) {
 		<h2 class="mt-4">{{post.title}}</h2>
+		@if (post.videoId) {
+			<youtube-video-player
+				class="video-element"
+				[videoId]="post.videoId"
+				[isShort]="post.isShort == 'true' ? 'true' : 'false'">
+			>
+			</youtube-video-player>
+		}
 		@for (image of post.images; track image) {
 		<div
 			mdbRipple
