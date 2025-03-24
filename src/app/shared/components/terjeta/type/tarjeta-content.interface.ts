@@ -9,4 +9,6 @@ export interface ITarjeta {
   button_link?: string;
   enabled: boolean;
   images?: string[];
+  videoId?: string;
+  isShort?: string;
 }

@@ -40,3 +40,27 @@ $sansia-expect-front-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+@media  screen and (min-width: 1024px) and  (max-width: 2040px) {
+  .video-element {
+    width: 1096px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7%;
+    margin: 10px auto 0px;
+    // center with same separation between
+    justify-content: space-around;
+  }
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 450px) {
+  .video-element {
+    display: inline-block;
+    //width: 350px;
+    //height: 450px;
+    padding: 0px 7px;
+  }
+}
