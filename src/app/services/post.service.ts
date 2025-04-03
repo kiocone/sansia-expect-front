@@ -113,8 +113,8 @@ export class PostServices {
     },
     {
       id: 5,
-      title: "SANTA MARTA",
-      subtitle: "BARRANQUILLA VIP",
+      title: "SANTA MARTA - BARRANQUILLA VIP",
+      subtitle: "Santa Marta - Barranquilla",
       description: "📍Recogida 03:30:00 Am<br>📍Finalización 09:00 Pm<br><br><strong>Incluye</strong><br>🚌Recogida en la puerta de los hoteles (Boca Grande, Laguito, Centro Histórico, Getsemaní y Zona Norte).<br><br>🚌Paseo panorámico por la ciudad de Barranquilla.<br>paradas en Barranquilla:<br>🚤Caimán del Río: hermoso corredor vial a orilla del río Magdalena.<br>🏢Ventana al Mundo: monumento más alto de Latinoamérica.<br><br>🥪🧋Desayuno frio abordo (sándwich doble queso, doble jamón, cajita de jugo y fruta)<br><br>🌊🏝🏊‍♀️⛵Visita al sector del Rodadero, desde donde tomamos una lancha hacia Playa Blanca de Santa Marta. Disfruté de playa y deportes náuticos (no incluí dos).<br><br>🥘🍴🍤Almuerzo típico con pescado, patacón, arroz de coco y ensalada, con opción  de pollo o carne a la plancha, en Playa Blanca.<br><br>🏦 Retorno a la ciudad  de Santa Marta:<br><br>🤹‍♂️visita Quinta San Pedro Alejandrino (incluye entrada).<br>🤹‍♂️Visita a la estatua del Pibe Valderrama.<br>🛥️💒Paseo por la Bahía, la Marina, Parque de los novios, la Catedral, Plaza Bolíva<br>",
       longDescription: "...",
       background_image: "../../assets/images/smv-13.jpeg",
@@ -152,6 +152,25 @@ export class PostServices {
         "../../assets/images/pal-02.jpeg",
         "../../assets/images/pal-03.jpeg",
         "../../assets/images/pal-04.jpeg"
+      ]
+    },
+    {
+      id: 7,
+      title: "SABAI",
+      description: "🎉 IMPUESTO DE SALIDA INCLUIDO🎉<br><br>📍Lugar de encuentro:<br>Marina TodoMar de Bocagrande.<br><br>✅️INCLUYE:<br><br>🚤 Transporte en la lancha compartida ida y regreso.<br><br>🏰 Panorámico en El Fuerte de Bocachica<br><br>🏝️ Panorámico por la península de Barú y Cholon.<br><br>💧1 refrescante botella de agua abordo<br><br>🍧 Paleta de fruta de la región de bienvenida.<br><br>⛱️ Cama de playa<br><br>🍽️ Almuerzo a la carta (14 opciones) acompañado con una botella de agua o coca cola.<br><br>🏄🏻‍♂️ Actividades de Kayak, y paddleboard.<br><br>🏐Voleibol<br><br>🏸 Raquetas de playa.<br><br>☕️ Café ilimitado<br><br>▪︎ Wifi en todas las instalaciones<br><br>🏊🏼‍♂️ Acceso a Piscina<br><br>🚿 Ducha de Agua Dulce<br><br>👝 Servicio de Toallas<br><br>************<br>************<br>🚫 No incluye servicios no especificado<br>************<br>************<br><br>📍Lugar de encuentro:<br>Marina TodoMar de Bocagrande.<br><br>⏰️ Hora de encuentro:<br>7:30 a.m.<br>Hora de Salida:<br>8:15 a.m.<br>Regreso: 3:00 p.m. (sujeto a cambios climáticos)",
+      longDescription: "...",
+      background_image: "../../assets/images/sab-01.jpeg",
+      button_text: "Ver detalles",
+      enabled: true,
+      videoId: "tdLDQ2VRnHQ",
+      isShort: "true",
+      images: [
+        "../../assets/images/sab-01.jpeg",
+        "../../assets/images/sab-02.jpeg",
+        "../../assets/images/sab-03.jpeg",
+        "../../assets/images/sab-04.jpeg",
+        "../../assets/images/sab-05.jpeg",
+        
       ]
     }
   ]
