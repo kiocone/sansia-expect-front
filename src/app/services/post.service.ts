@@ -172,6 +172,26 @@ export class PostServices {
         "../../assets/images/sab-05.jpeg",
         
       ]
+    },
+    {
+      id: 8,
+      title: "IBBIZA",
+      subtitle: "PASADIA IBBIZA ISLAND BEACH CLUB 🏝",
+      description: "Ven y disfruta en familia!<br>Atesora momentos mágicos en nuestro club de playa en Islas del Rosario<br><br>🏖️🌊🍹🥃⛱️🎧🍽️💥<br><br>INCLUYE<br>🚤 Transporte en lancha deportiva Ida y vuelta<br>🍹 Cóctel de Bienvenida con o sin alcohol<br>🍺Una Cerveza Nacional por persona<br>🍴 Almuerzo a elegir entre 07 opciones:<br>1. 🐠Plato típico Pescado frito acompañado de arroz de coco frito o blanco, patacones y ensalada.<br>2. ⁠🍜 Sancocho IBBIZA: Acompañado con arroz blanco o de coco con posta de pescado.<br>3. ⁠🍗 Pechuga a la Plancha<br>Acompañado con patacones, ensalada y una porción de arroz.<br>4. 🥦 Opción Vegetariano<br>5. 🍝🍤Pastas con vegetales y Mariscos.<br>6. 🍝 Pastas Carbonara.<br>7. 🧆Menú infantil.<br>🍹 Bebida: Agua o Gaseosa.<br>🏝️Uso de Zonas Sociales<br>🏊‍♀️Piscina de agua salada<br>🎶Dj en vivo<br>🏖️Cama playa<br>⛱️ Sillas Asoleadoras<br>🌊Playa privada<br>🚿Ducha de agua dulce<br>🐶Somos Pet Friendy, se permite el ingreso de Mascotas pequeñas con bosal y vacuna.<br>🐬Traslado al oceanario.<br>🥽 Snorkeling<br>🚣🏻‍♀️ Kayak<br>NO INCLUYE<br>- Toallas<br>- Tasa Administrativa ($26.500 PP)<br>- Gastos no especificados<br><br>Tener en cuenta👇<br>📍Punto de encuentro: Marina Todomar<br>🕗Hora de registro:  07:45 am a 08:00 am<br>🚤Hora de salida: entre 8:30 am y 8:40 am<br>🕥Hora de retorno: entre 03:15 pm y 03:30pm<br>(dependiendo de las condiciones climáticas del día)<br><br>❌No se permite ingreso de Alimentos y Bebidas<br>❌No apto para mujeres embarazadas<br><br>Políticas de Cancelación:<br>● Toda cancelación estará sujeta a cargos por concepto<br>de comisiones bancarias y gastos administrativos.<br>● Si se presenta alguna cancelación de la reserva se deberá hacer mínimo 24 horas<br>antes de la fecha del tour reservado de lo contrario se cobrará No Show.<br>● Para grupos si se presentan alguna cancelación de la reserva se deberá hacer<br>mínimo 72 Horas antes del tour reservado.<br>● La cancelación dentro de los términos previstos para ello,<br>se hará el reembolso del 70% de los servicios solicitados o,<br>cuando a ello aplique la retención de lo anticipado<br>pagado por el cliente.<br>",
+      longDescription: "...",
+      background_image: "../../assets/images/ibb-01.jpeg",
+      button_text: "Ver detalles",
+      enabled: true,
+      videoId: "7xgvVxxlKcM",
+      isShort: "false",
+      images: [
+        "../../assets/images/ibb-01.jpeg",
+        "../../assets/images/ibb-02.jpeg",
+        "../../assets/images/ibb-03.jpeg",
+        "../../assets/images/ibb-04.jpeg",
+        "../../assets/images/ibb-05.jpeg",
+        
+      ]
     }
   ]
   getPosts(): ITarjeta[] {
