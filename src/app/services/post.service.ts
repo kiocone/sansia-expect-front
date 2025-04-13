@@ -192,6 +192,19 @@ export class PostServices {
         "../../assets/images/ibb-05.jpeg",
         
       ]
+    },
+    {
+      id: 9,
+      title: "4 DESTINOS",
+      subtitle: "🐬 4 DESTINOS – ISLAS DEL ROSARIO🐬",
+      description: "🚍 Recogida en el hotel, (7:50am a 8:30am)<br>(zona: Bocagrande, Marbella, Crespo, Boquilla. Si se encuentra en una zona diferente a la mencionada debe llegar al muelle de los pegasos).<br><br>🤠 Recorrido hacías las islas del rosario en lancha deportiva.<br>(las lanchas deportivas tienen capacidades desde 15 personas hasta 30 personas).<br><br>⚔️ Vista panorámica de los fuertes san Fernando y san José en bocachica.<br><br>🏝️ Vista panorámica de las islas de rosario.<br><br>🛩️ Avistamiento de la avioneta sumergida de Pablo Emilio Escobar Gaviria.<br><br>🐬 Ingreso al oceanario con entrada incluida.<br><br>🔥 isla Cholón<br><br>🌅 Almuerzo en isla Baru - playa tranquila.<br>(pescado frito, Pechuga de pollo o vegetariano. Cualquiera de estas opciones viene acompañado de ensalada, patacón y arroz de coco + Limonada).<br><br>🚤 Retorno en el mismo bote deportivo, (hasta el muelle los pegasos 3:30pm a 4:00pm)",
+      longDescription: "...",
+      background_image: "../../assets/images/ibb-05.jpeg",
+      button_text: "Ver detalles",
+      enabled: true,
+      videoId: "cPrDMIYkrDs",
+      isShort: "false",
+      images: []
     }
   ]
   getPosts(): ITarjeta[] {
