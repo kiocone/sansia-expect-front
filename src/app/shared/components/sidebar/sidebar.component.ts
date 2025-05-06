@@ -12,6 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
+import { VisitasService } from '../../services/visits.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -35,10 +36,12 @@ export class SidebarComponent implements OnInit {
 
   // Configuration object containing menu items for the sidebar
   config!: SidebarConfig;
+  visitas: number | null = null;
 
   constructor(
     private readonly sidebarService: SidebarService,
-    private readonly configService: ConfigService
+    private readonly configService: ConfigService,
+    private visitasService: VisitasService
   ) {}
 
   ngOnInit(): void {
@@ -53,6 +56,12 @@ export class SidebarComponent implements OnInit {
       menuItems: this.menuItems,
       configurationItems: this.configurationItems,
     };
+
+    this.visitasService.obtenerVisitas().subscribe({
+      next: (data) => this.visitas = data.visitas,
+      error: (err) => console.error('Error cargando visitas:', err)
+    });
+
   }
 
   onCloseSidebar(): void {
